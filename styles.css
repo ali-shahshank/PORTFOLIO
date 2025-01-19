@@ -104,7 +104,7 @@ canvas {
   height: 280px;
   width: 500px;
   background-color: blue;
-  background-image: url(/images/portabannerporta.png);
+  background-image: url(images/portabannerporta.png);
   background-size: cover;
   background-position: center;
 }
@@ -112,9 +112,10 @@ canvas {
 .case-container-two {
   height: 280px;
   width: 500px;
-  background-image: url(/images/tripwisebanner.png);
+  background-image: url(images/tripwisebanner.png);
   background-position: center;
   background-size: cover;
+  background-color: purple;
 }
 
 /* case one & two */
@@ -181,7 +182,7 @@ canvas {
   height: 600px;
   width: 500px;
   background-color: orange;
-  background-image: url(/images/axleXcontainer.png);
+  background-image: url(images/axleXcontainer.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,10 +236,11 @@ canvas {
 .case-container-four {
   height: 350px;
   width: 1050px;
-  background-image: url(/images/nexcombanner.png);
+  background-image: url(images/nexcombanner.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: green;
 }
 
 @media (max-width: 375px) {
