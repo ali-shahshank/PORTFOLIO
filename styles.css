@@ -72,6 +72,12 @@ canvas {
   width: 200px;
 }
 
+.profile-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   .img-container {
     height: 180px;

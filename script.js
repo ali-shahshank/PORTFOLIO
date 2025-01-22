@@ -1,3 +1,6 @@
+/* NAVIGATION */
+const modalId = document.getElementById("modalId");
+
 /* FADE IN TEXT ANIMATION */
 function textFadeInAnimation(elementId) {
   const elements = document.querySelectorAll(elementId);
