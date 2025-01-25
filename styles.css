@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+/* Navigation */
+#message {
+  height: 200px;
+}
 /* intro text */
 
 .fade-in {
@@ -110,7 +114,7 @@ canvas {
   height: 280px;
   width: 500px;
   background-color: blue;
-  background-image: url(images/portabannerporta.png);
+  background-image: url(images/portabanner.png);
   background-size: cover;
   background-position: center;
 }

@@ -4,7 +4,6 @@ const modalId = document.getElementById("modalId");
 /* FADE IN TEXT ANIMATION */
 function textFadeInAnimation(elementId) {
   const elements = document.querySelectorAll(elementId);
-
   elements.forEach((element) => {
     element.classList.add("fade-in");
 
@@ -61,8 +60,9 @@ applyAppearAnimation("workText2");
 applyAppearAnimation("experienceHeading");
 
 /* Case studies */
+applyAppearAnimation("identityHeading");
 applyAppearAnimation("portaTypography");
-applyAppearAnimation("portaColor");
+applyAppearAnimation("colorHeading");
 
 /* CONTAINER FADE IN ANIMATION */
 function applyFadeInAnimation(elementId) {
